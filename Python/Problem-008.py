@@ -1,5 +1,5 @@
 #
-# Solution to Problem 8
+# Solution to Problem 8: Largest Product in a Series
 # by Bill Dybas
 #
 

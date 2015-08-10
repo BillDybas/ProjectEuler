@@ -1,5 +1,5 @@
 #
-# Solution to Problem 5
+# Solution to Problem 5: Smallest Multiple
 # by Bill Dybas
 #
 

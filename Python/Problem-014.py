@@ -1,5 +1,5 @@
 #
-# Solution to Problem 14: Longest Collatz sequence
+# Solution to Problem 14: Longest Collatz Sequence
 # by Bill Dybas
 #
 

@@ -1,5 +1,5 @@
 #
-# Solution to Problem 9
+# Solution to Problem 9: Special Pythagorean Triplet
 # by Bill Dybas
 #
 

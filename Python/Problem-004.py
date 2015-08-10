@@ -1,5 +1,5 @@
 #
-# Solution to Problem 4
+# Solution to Problem 4: Largest Palindrome Product
 # by Bill Dybas
 #
 

@@ -1,5 +1,5 @@
 #
-# Solution to Problem 1
+# Solution to Problem 1: Multiples of 3 and 5
 # by Bill Dybas
 #
 

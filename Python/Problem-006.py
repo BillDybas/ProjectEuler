@@ -1,5 +1,5 @@
 #
-# Solution to Problem 6
+# Solution to Problem 6: Sum Square Difference
 # by Bill Dybas
 #
 

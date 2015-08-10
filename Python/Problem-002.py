@@ -1,5 +1,5 @@
 #
-# Solution to Problem 2
+# Solution to Problem 2: Even Fibonacci Numbers
 # by Bill Dybas
 #
 

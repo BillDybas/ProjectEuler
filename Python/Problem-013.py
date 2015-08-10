@@ -1,5 +1,5 @@
 #
-# Solution to Problem 13
+# Solution to Problem 13: Large Sum
 # by Bill Dybas
 #
 
