@@ -5,40 +5,16 @@
 
 def is_divisible(n):
 
-    if not n % 11 == 0:
-        return False
-
     # Divisible by 12 means also divisible by 3 and 4
-    elif not n % 12 == 0:
-        return False
-
-    elif not n % 13 == 0:
-        return False
-
     # Divisible by 14 means also divisible by 2 and 7
-    elif not n % 14 == 0:
-        return False
-
     # Divisible by 15 means also divisible by 3 and 5
-    elif not n % 15 == 0:
-        return False
-
     # Divisible by 16 means also divisible by 2, 4, and 8
-    elif not n % 16 == 0:
-        return False
-
-    elif not n % 17 == 0:
-        return False
-
     # Divisible by 18 means also divisible by 2, 3, 6, and 9
-    elif not n % 18 == 0:
-        return False
-
-    elif not n % 19 == 0:
-        return False
-
     # Divisible by 20 means also divisible by 2, 4, 5, and 10
-    elif not n % 20 == 0:
+    if not n % 11 == 0 or not n % 12 == 0 or not n % 13 == 0 \
+        or not n % 14 == 0 or not n % 15 == 0 or not n % 16 == 0 \
+        or not n % 17 == 0 or not n % 18 == 0 or not n % 19 == 0 \
+        or not n % 20 == 0:
         return False
     else:
         return True
