@@ -5,14 +5,6 @@
 
 import itertools
 
-def is_pandigital(number):
-    if "1" in str(number) and "2" in str(number) and "3" in str(number) \
-        and "4" in str(number) and "5" in str(number) and "6" in str(number) \
-        and "7" in str(number) and "8" in str(number) and "9" in str(number):
-        return True
-    else:
-        return False
-
 def is_divisible(number):
     if int(str(number)[1:4]) % 2 == 0 \
         and int(str(number)[2:5]) % 3 == 0 \
@@ -26,12 +18,15 @@ def is_divisible(number):
         return False
 
 def calculate():
+    # Returns list of tuples of all permutations
+    # of pandigital numbers
     permutations = itertools.permutations('1023456789', 10)
     total = 0
 
     for i in permutations:
+        # Converts the tuples into ints
         num = int(''.join(i))
-        if is_pandigital(num) and is_divisible(num):
+        if is_divisible(num):
             total += num
 
     return total
