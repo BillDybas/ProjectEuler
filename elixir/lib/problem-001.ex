@@ -9,6 +9,14 @@ defmodule Problem1 do
     233168
   """
   def solve do
-
+    Enum.reduce(1..999, 0, fn num, acc ->
+      if rem(num, 3) === 0 or rem(num, 5) === 0 do
+        acc + num
+      else
+        acc
+      end
+    end)
   end
 end
+
+IO.puts "Problem #1: #{Problem1.solve}"
